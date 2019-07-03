@@ -20,13 +20,13 @@ public class EmployeeDao {
         employees = new HashMap<Integer, Employee>();
         employees.put(1001,new Employee(1001,"E-AA","aa@gmail.com",1, new Department(101,"D-AA")));
 
-        employees.put(1002,new Employee(1002,"E-BB","bb@gmail.com",1, new Department(101,"D-AA")));
+        employees.put(1002,new Employee(1002,"E-BB","bb@gmail.com",1, new Department(102,"D-AA")));
 
-        employees.put(1003,new Employee(1003,"E-CC","cc@gmail.com",0, new Department(101,"D-AA")));
+        employees.put(1003,new Employee(1003,"E-CC","cc@gmail.com",0, new Department(103,"D-AA")));
 
-        employees.put(1004,new Employee(1004,"E-DD","dd@gmail.com",0, new Department(101,"D-AA")));
+        employees.put(1004,new Employee(1004,"E-DD","dd@gmail.com",0, new Department(104,"D-AA")));
 
-        employees.put(1005,new Employee(1005,"E-EE","ee@gmail.com",1, new Department(101,"D-AA")));
+        employees.put(1005,new Employee(1005,"E-EE","ee@gmail.com",1, new Department(105,"D-AA")));
 
     }
 
