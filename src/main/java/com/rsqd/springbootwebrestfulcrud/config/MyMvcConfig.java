@@ -18,7 +18,7 @@ public class MyMvcConfig extends WebMvcConfigurerAdapter {
     //use autoconfig and extend other usage
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addViewController("/rsqd").setViewName("success");
+            registry.addViewController("/rsqd").setViewName("success");
     }
 
     // all webmvcconfigureadapter will work
